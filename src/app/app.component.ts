@@ -2,7 +2,9 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "app-root",
-  template: `<p>radi</p>`,
+  template: ` <app-header></app-header>
+    <router-outlet></router-outlet>
+    <p>radi</p>`,
   styles: [],
 })
 export class AppComponent {
